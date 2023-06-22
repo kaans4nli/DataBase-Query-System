@@ -7,10 +7,10 @@ You can assume queries as case-insensitive.
 
 # Simplified SQL Forms
 
-SELECT {ALL|column_name} FROM STUDENTS WHERE {column_name|=,!=,<,>,<=,>=,!<,!>,AND,OR} ORDER BY {ASC|DSC}
+* SELECT {ALL|column_name} FROM STUDENTS WHERE {column_name|=,!=,<,>,<=,>=,!<,!>,AND,OR} ORDER BY {ASC|DSC}
 
-INSERT INTO STUDENT VALUES (val1,val2,val3,…)
+* INSERT INTO STUDENT VALUES (val1,val2,val3,…)
 
-DELETE FROM STUDENT WHERE {column_name|=,!=,<,>,<=,>=,!<,!>,AND,OR}
+* DELETE FROM STUDENT WHERE {column_name|=,!=,<,>,<=,>=,!<,!>,AND,OR}
 
-exit
+* exit
